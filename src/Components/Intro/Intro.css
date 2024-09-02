@@ -1,0 +1,96 @@
+#intro{
+    /* height: calc(100vh - 4rem); */
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: poppins;
+    position: relative;
+    z-index: -1;
+}
+
+.bg{
+    position: absolute;
+    top: 3rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+   height: 100vh;
+    
+}
+.IntroContent{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    font-size: 3rem;
+    font-weight: 700;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+   
+
+
+}
+.Hello{
+    font-size: 1.75rem;
+    font-weight: 100;
+
+}
+.introName{
+    color: yellow;
+}
+.Intropara{
+    font-size: medium;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.btnsss{
+    background: white;
+    margin: 1rem 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+}
+.btnimgsss{
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+}
+@media screen and (max-width: 550px) {
+    .bg {
+        right: -10vw;
+    }
+    .IntroContent{
+        font-size: 10vw;
+        max-width: 106%;
+    }
+    .Hello{
+        font-size: 4.5vw;
+    }
+    .Intropara{
+        font-size: small;
+    }
+    
+}
+
+
+@media screen and (max-width: 550px) {
+    /* .bg {
+      left: -4vw;
+    } */
+    .IntroContent{
+        margin-top: 98px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .bg {
+      left: -15vw;
+    }
+}
+@media screen and (max-width: 380px) {
+    .bg {
+      left: -29vw;
+    }
+}
